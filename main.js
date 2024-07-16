@@ -2,8 +2,8 @@
 // 0.25€ pro min
 // 1.50 pro km
 function calculateResult() {
-    var duration = document.getElementById('duration');
-    var route = document.getElementById('route');
+    var duration = document.getElementById('duration').value;
+    var route = document.getElementById('route').value;
     var calcOption = document.getElementById('calc_options');
     var routeOption = document.getElementById('route_option');
     var discountCode = document.getElementById('discountCode');
